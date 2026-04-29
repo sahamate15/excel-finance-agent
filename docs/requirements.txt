@@ -1,0 +1,8 @@
+# Documentation-build dependencies. NOT runtime deps — kept separate so the
+# main project stays lean. Install with:
+#
+#   pip install -r docs/requirements.txt
+#   python docs/build_pdf.py
+#
+reportlab>=4.0.0
+pypdf>=5.0.0
